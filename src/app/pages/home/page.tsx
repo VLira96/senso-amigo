@@ -1,7 +1,9 @@
+import SideBar from "@/components/sidebar";
+
 const Page = () => {
     return (
-        <div>
-            menu
+        <div className="h-screen bg-zinc-200 ">
+            <SideBar />
         </div>
     );
 }
