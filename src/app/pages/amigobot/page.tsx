@@ -12,6 +12,12 @@ export default function Page() {
                 </ul>
             </div>
             <div id="amigobot-chat">
+                <img 
+                    src="/amigobot.webp" 
+                    alt="logo AmigoBot" 
+                    width="250px"
+                    height="250px"
+                />
                 <h1>AmigoBot</h1>
                 <input 
                     type="text" 
