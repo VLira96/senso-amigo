@@ -1,3 +1,9 @@
+import SideBar from "@/components/sidebar";
+
 export default function Page() {
-    return <h1>Jogos</h1>
+    return (
+        <div>
+            <SideBar />
+        </div>
+    )
 }
