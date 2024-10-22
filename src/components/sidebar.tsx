@@ -1,4 +1,6 @@
-        <>
+import Link from "next/link";
+    
+      <>
             <div id="sidebar" className="bg-azul-principal text-white w-[150px] h-screen">
                 <ul>
                     <li>
