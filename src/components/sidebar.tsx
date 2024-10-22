@@ -1,6 +1,8 @@
 import Link from "next/link";
-    
-      <>
+
+export default function SideBar() {
+    return (
+        <>
             <div id="sidebar" className="bg-azul-principal text-white w-[150px] h-screen">
                 <ul>
                     <li>
