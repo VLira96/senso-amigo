@@ -4,10 +4,10 @@ export default function SideBar() {
     return (
         <>
             <div id="sidebar" className="bg-azul-principal text-white w-[150px] h-screen">
-                <ul>
+                <ul className="flex flex-col gap-10">
                     <li>
                         <Link href={'/'}>
-                            <img src="/Firefly_gera_uma_logo_para_um_app_de_acessibilidade_para_autistas__logo_simples__sem_muitos_detalhes-removebg-preview.png" alt="Logo Senso Amigo" width="150px" />
+                            <img src="/logo.png" alt="Logo Senso Amigo" width="150px" />
                         </Link>
                     </li>
                     <li>
