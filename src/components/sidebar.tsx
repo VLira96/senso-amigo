@@ -1,10 +1,8 @@
-import Link from "next/link";
+/*import Link from "next/link";
 
 export default function SideBar() {
     return (
-<<<<<<< HEAD
-      <aside className="bg-blue-600 text-white w-64 h-screen flex flex-col p-4">
-        {/* Logo ou título no topo */}
+     <aside className="bg-blue-600 text-white w-64 h-screen flex flex-col p-4">
         <div className="mb-8">
           <div className="flex items-center justify-center mb-4">
             <div className="bg-white p-2 rounded-full">
@@ -14,7 +12,6 @@ export default function SideBar() {
           <h2 className="text-center text-2xl font-bold">App Name</h2>
         </div>
   
-        {/* Links de navegação */}
         <nav className="flex flex-col space-y-4">
           <a
             href="#"
@@ -36,7 +33,6 @@ export default function SideBar() {
           </a>
         </nav>
   
-        {/* Rodapé */}
         <div className="mt-auto pt-6">
           <p className="text-sm text-center text-gray-400">© 2024 App Name</p>
         </div>
@@ -44,9 +40,8 @@ export default function SideBar() {
     );
   };
   
-  export default SideBar;
+  export default SideBar;*/
   
-=======
         <>
             <div id="sidebar" className="bg-azul-principal text-white w-[150px] h-screen">
                 <ul>
@@ -96,4 +91,3 @@ export default function SideBar() {
 // }
 
 // export default SideBar;
->>>>>>> a2135c5c32dd9298b3262a52cc3ea0f44c9b1bd4
