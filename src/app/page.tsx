@@ -9,7 +9,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col p-12 justify-center items-center h-auto">
-        <img src="Firefly_gera_uma_logo_para_um_app_de_acessibilidade_para_autistas__logo_simples__sem_muitos_detalhes-removebg-preview.png" alt="sla" width={350} />
+        <img src="logo.png" alt="logo" width={350} />
         <h1 className="text-white text-7xl font-semibold">SensoAmigo</h1>
       </div>
     </main>
