@@ -3,7 +3,7 @@ import SideBar from "@/components/sidebar"
 export default function AmigoBot() {
     return (
         <div id="container" className="flex flex-col items-center h-full w-full">
-            <div className="flex flex-col items-center mt-8">
+            <div className="flex flex-col items-center">
                 <img
                     src="/amigobot.webp"
                     alt="logo AmigoBot"

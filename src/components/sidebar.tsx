@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function SideBar() {
     return (
-        <div id="sidebar" className="bg-azul-principal text-white w-[100px] h-screen flex flex-col items-center py-6 space-y-8">
+        <aside id="sidebar" className="bg-azul-principal text-white w-[100px] h-full flex flex-col items-center py-6 space-y-8">
             <div>
                 <Link href={'/'}>
                     <img src="/logo.png" alt="Logo Senso Amigo" className="w-15 h-15" />
                 </Link>
             </div>
 
-            <ul className="flex flex-col gap-10">
+            <ul className="flex flex-col gap-20 pt-20">
                 <li>
                     <Link href={'/'}>
                         <img src="/home-icon.png" alt="Início" className="w-10 h-10" />
@@ -26,7 +26,7 @@ export default function SideBar() {
                     </Link>
                 </li>
             </ul>
-        </div>
+        </aside>
     )
 }
 
