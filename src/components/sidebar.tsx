@@ -11,7 +11,7 @@ export default function SideBar() {
 
             <ul className="flex flex-col gap-20 pt-20">
                 <li>
-                    <Link href={'/'}>
+                    <Link href={'/pages/home'}>
                         <img src="/home-icon.png" alt="Início" className="w-10 h-10" />
                     </Link>
                 </li>
