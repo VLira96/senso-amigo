@@ -7,7 +7,9 @@ export default function RootLayout({
 }) {
     return (
         <div className="flex h-screen">
-            <SideBar />
+            <div className="fixed h-screen z-10">
+                <SideBar />
+            </div>
             <div className="flex-1 flex flex-col">
                 <div
                     className="h-40 bg-cover bg-center"
@@ -17,7 +19,7 @@ export default function RootLayout({
                     }}
                 ></div>
 
-                <div className="flex-1 flex justify-center items-center bg-gray-100 pt-10">
+                <div className="flex-1 flex justify-center items-center bg-gray-100">
                     {children}
                 </div>
             </div>

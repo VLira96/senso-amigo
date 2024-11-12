@@ -4,7 +4,7 @@ export default function SideBar() {
     return (
         <aside id="sidebar" className="bg-azul-principal text-white w-[100px] h-full flex flex-col items-center py-6 space-y-8">
             <div>
-                <Link href={'/'}>
+                <Link href={'/pages/home'}>
                     <img src="/logo.png" alt="Logo Senso Amigo" className="w-15 h-15" />
                 </Link>
             </div>
