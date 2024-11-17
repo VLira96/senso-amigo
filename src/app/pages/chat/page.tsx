@@ -2,7 +2,7 @@ import ChatSidebar from "@/components/chat-sidebar";
 
 export default function Chat() {
     return (
-        <div className="flex w-full h-screen bg-gray-100 ml-[100px]">
+        <div className="flex w-full h-screen bg-gray-100">
             <ChatSidebar />
             <div className="flex-1 p-4 flex flex-col bg-white">
                 <div className="flex items-center mb-4 border-b pb-4">

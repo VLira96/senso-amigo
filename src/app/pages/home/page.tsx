@@ -14,39 +14,39 @@ const Page = () => {
             </div>
             <div className="grid grid-cols-3 gap-4 mt-8 w-full max-w-3xl">
                 <Link href={'/pages/avisos'} passHref>
-                <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
-                    Avisos da escola
-                </button>
+                    <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
+                        Avisos da escola
+                    </button>
                 </Link>
 
                 <Link href={'/pages/jogos'} passHref>
-                <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
-                    Jogos educativos
-                </button>
+                    <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
+                        Jogos educativos
+                    </button>
                 </Link>
 
                 <Link href={'/pages/videos'} passHref>
-                <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
-                    Vídeos educativos
-                </button>
+                    <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
+                        Vídeos educativos
+                    </button>
                 </Link>
 
                 <Link href={'/pages/cronograma'} passHref>
-                <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
-                    Cronograma
-                </button>
+                    <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
+                        Cronograma
+                    </button>
                 </Link>
 
                 <Link href={'/pages/atividades'} passHref>
-                <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
-                    Atividades do aluno
-                </button>
+                    <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
+                        Atividades do aluno
+                    </button>
                 </Link>
 
                 <Link href={'/pages/amigobot'} passHref>
-                <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
-                    Converse com o AmigoBot
-                </button>
+                    <button className="bg-blue-500 text-white py-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 w-[250px]">
+                        Converse com o AmigoBot
+                    </button>
                 </Link>
             </div>
         </div>

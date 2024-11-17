@@ -19,7 +19,7 @@ export default function RootLayout({
                     }}
                 ></div>
 
-                <div className="flex-1 flex justify-center items-center bg-gray-100">
+                <div className="flex-1 flex justify-center items-center bg-gray-100 ml-[100px]">
                     {children}
                 </div>
             </div>
